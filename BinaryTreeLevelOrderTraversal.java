@@ -32,6 +32,7 @@ public class BinaryTreeLevelOrderTraversal {
                     list.add(current.right.val);
                 }
             }
-           
+           //return list;
+            return result;
     }
 }
